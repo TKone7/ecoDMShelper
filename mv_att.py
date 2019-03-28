@@ -8,7 +8,7 @@ from logging.handlers import RotatingFileHandler,TimedRotatingFileHandler
 def formatLog(log):
     return datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S') + ' ' + log
 # Working directory
-src = '/share/CACHEDEV1_DATA/ecoDMS/scaninput/QmailAgent_tobias_qnap.eco.dms@gmail.com/attachment/'
+src = '/share/CACHEDEV1_DATA/ecoDMS/scaninput/QmailAgent_xyz@gmail.com/attachment/'
 dest = '/share/CACHEDEV1_DATA/ecoDMS/scaninput/'
 # logger
 # handler = RotatingFileHandler(src + 'move.log', maxBytes=1 * 1024 * 1024, backupCount=5)
