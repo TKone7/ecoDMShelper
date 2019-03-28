@@ -44,5 +44,5 @@ Definiert einen Cron-Job der alle 5 Minuten läuft.
 ```
 Cron-Job Daemon muss neugestartet werden.
 ```
- # crontab /etc/config/crontab && /etc/init.d/crond.sh restart
+# crontab /etc/config/crontab && /etc/init.d/crond.sh restart
 ```
